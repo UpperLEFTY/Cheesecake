@@ -20,8 +20,8 @@ function carousel() {
 //# Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
     var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
+    if (x.className.indexOf("website name") == -1) {
+        x.className += " website name";
     } else { 
         x.className = x.className.replace(" website name here", "");
     }
@@ -36,3 +36,16 @@ window.onclick = function(event) {
 }
 </script> 
 //# Automatic slideshow -changes every 4 seconds // Toggle screens //
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("website name") == -1) {
+        x.className += " website name";
+    } else {
+        x.className = x.className.replace(" website name", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
